@@ -1,0 +1,77 @@
+/* Sidebar  */
+.side_nav_bar_wrapper {
+    /* margin-top: 4vh; */
+    height: 85vh;
+    width: 15vw;
+    background-color: white;
+    padding: 20px;
+    min-width: 200px;
+    /* font-family: 'Comforter',cursive; */
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+
+}
+
+
+.side_navigation_menu p span {
+    margin-left: 10px;
+    color: rgb(36, 36, 36)
+}
+
+.side_navigation_menu p {
+    cursor: pointer;
+    padding: 10px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+
+.side_navigation_menu p:hover {
+    background-color: #7D2BB3;
+    /* background-image: linear-gradient(to right, #7F30B4, #A369C9); */
+    color: white;
+    transition: all 0.2s ease;
+
+}
+
+.side_navigation_menu p:hover span {
+    color: white;
+}
+
+
+.side_bar_icons {
+    font-size: 20px;
+}
+
+/* ----------------------------------Topbar ----------------------------------*/
+
+/* Change Topbar style here*/
+.topbar_wrapper {
+    width: fit-content;
+    margin: 10px auto;
+    padding: 16px 80px;
+    box-shadow: 0px 5px 3px 3px #ccc;
+    border-radius: 25px;
+    position: relative;
+    background: white;
+}
+
+/*change user icon style here */
+.topbar_user_icon {
+    position: absolute;
+    left: 80%;
+    top: 15%;
+    font-size: 38px;
+}
+
+/* change user-name style here */
+.topbar_wrapper h2 {
+    font-size: 25px;
+    text-align: left;
+    margin: 0%;
+}
